@@ -19,4 +19,89 @@ body {
 .cabecalho .logo {
     width: 65px;
     height: 65px;
+    border-radius: 50%;
+    border: 2px solid white;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 55px;
+    font-family: "Raleway", sans-serif;
+    transition: 0.2s;
 }
+
+.cabecalho a:hover .logo {
+    color: #9443d8;
+    border: 2px solid #9443d8;
+}
+
+.cabecalho .menu ul {
+
+}
+
+.cabecalho .menu li a {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px 20px ;
+    transition: 0.2s;
+}
+
+.cabecalho .menu li a:hover {
+    background-color: #9443d8;
+    color: white;
+    border-radius: 50px;
+}
+
+.home {
+    display: flex;
+    min-height: calc(100vh - 125px); /*viewport height, 125 altura do menu*/
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.home .informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    letter-spacing: 2px;
+    padding: 0 15px;
+    max-width: 50%;
+}
+
+.home .informacoes h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.home .informacoes p {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.home .redes-sociais {
+    display: flex;
+    gap: 20px;
+}
+
+.home .redes-sociais a i {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 26px;
+    transition: 0.2s;
+}
+
+.home .redes-sociais a i:hover {
+    color: #9443d8;
+    border: 1px solid #9443d8;
+    transform: scale(1.1); /*aumenta o elemento*/
+}
+
+/* .home .container-foto img {
+    width: 100%;
+    border: ;
+} */
