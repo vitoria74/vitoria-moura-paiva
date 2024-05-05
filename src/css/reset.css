@@ -1,3 +1,20 @@
 * {
-    
+    margin: 0; /*espaçamento externo*/
+    padding: 0; /*espaçamento interno*/
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
 }
