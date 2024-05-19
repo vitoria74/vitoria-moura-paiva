@@ -20,3 +20,9 @@
         padding: 0 30px;
     }
 }
+
+@media(max-width: 425px) {
+    .home .informacoes h1 {
+        font-size: 30px;
+    }
+}
