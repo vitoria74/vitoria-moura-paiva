@@ -8,6 +8,8 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
     max-width: 1120px; /*pro margin funcionar*/
+    background: linear-gradient(150deg, #000000, #9e00ff);
+    background-size: 120% 120%; /*mudar a cor conforme rolagem*/
 }
 
 .cabecalho {
@@ -32,10 +34,6 @@ body {
 .cabecalho a:hover .logo {
     color: #9443d8;
     border: 2px solid #9443d8;
-}
-
-.cabecalho .menu ul {
-
 }
 
 .cabecalho .menu li a {
@@ -111,6 +109,12 @@ body {
     width: 100%;
     border-radius: 50%;
     background: linear-gradient(to right, #9443d1, #8a388ac9);
+}
+
+.home .foto.sombra-interna {
+    background: linear-gradient(to right, #8a388ac9, #d8d1dd, #9443d1);
+    background-size: 180% 180%;
+    animation: gradient-animation 1s ease infinite;
 }
 
 .projetos {
@@ -198,5 +202,19 @@ body {
 
 .projetos .btn-mostrar-projeto.remover {
     display: none;
+}
+
+@keyframes gradient-animation { /*animação de mudar tom conforme rolagem*/
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
