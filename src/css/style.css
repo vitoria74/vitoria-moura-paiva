@@ -4,7 +4,6 @@ html {
 }
 
 body {
-    background-color: #282828;
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
     max-width: 1120px; /*pro margin funcionar*/
@@ -75,7 +74,7 @@ body {
 .home .informacoes p {
     font-family: "Raleway", sans-serif;
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .home .redes-sociais {
@@ -91,7 +90,7 @@ body {
     padding: 10px;
     text-align: center;
     font-size: 26px;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .home .redes-sociais a i:hover {
@@ -108,17 +107,16 @@ body {
 .home .container-foto img {
     width: 100%;
     border-radius: 50%;
-    background: linear-gradient(to right, #9443d1, #8a388ac9);
 }
 
 .home .foto.sombra-interna {
-    background: linear-gradient(to right, #8a388ac9, #d8d1dd, #9443d1);
+    background: linear-gradient(to right, #8a388ac9, #b47ddb, #9443d1);
     background-size: 180% 180%;
-    animation: gradient-animation 1s ease infinite;
+    animation: gradient-animation 5s ease infinite;
 }
 
 .projetos {
-    padding: 70px 0;
+    padding: 70px 0 70px;
 }
 
 .projetos .titulo {
