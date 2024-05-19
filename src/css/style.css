@@ -101,19 +101,19 @@ body {
 
 .home .container-foto .foto {
     max-width: 450px;
-    border-radius: 50%;
+    border-radius: 50%; 
 }
 
 .home .container-foto img {
-    width: 100%;
+    width: 100%; 
     border-radius: 50%;
-}
+} 
 
 .home .foto.sombra-interna {
     background: linear-gradient(to right, #8a388ac9, #b47ddb, #9443d1);
-    background-size: 180% 180%;
-    animation: gradient-animation 5s ease infinite;
-}
+    background-size: 180% 180%; 
+    animation: gradient-animation 4s ease infinite;
+} 
 
 .projetos {
     padding: 70px 0 70px;
@@ -214,5 +214,5 @@ body {
     100% {
         background-position: 0% 50%;
     }
-}
+} 
 
