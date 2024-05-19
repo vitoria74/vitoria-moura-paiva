@@ -1,5 +1,6 @@
 html {
     color: white;
+    scroll-behavior: smooth; /*rolamento ate projetos suave*/
 }
 
 body {
@@ -155,7 +156,7 @@ body {
     padding-top: 10px;
     position: absolute;
     bottom: 0;
-}
+} 
 
 .projetos .projeto .informacoes-projeto {
     background-color: black;
@@ -165,12 +166,37 @@ body {
     height: 100%;
     font-weight: 600;
     opacity: 0;
-    transition: 0.2s;
+    transition: 0.3s;
+    padding: 20px;
 }
 
-.projetos .container-projetos .projeto:hover .informacoes-projetos {
+.projetos .container-projetos .projeto:hover .informacoes-projeto {
     opacity: 0.7;
     background-color: black;
 }
 
+.projetos .btn-mostrar-projetos {
+    background: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    width: 180px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.projetos .btn-mostrar-projetos:hover {
+    background-color: #9443D0;
+    transition: 0.3s;
+}
+
+.projetos .btn-mostrar-projeto.remover {
+    display: none;
+}
 
