@@ -1,4 +1,8 @@
 @media(max-width: 1280px) {
+    .cabecalho {
+        padding: 30px;
+    }
+    
     .home {
         flex-direction: column;
         align-items: center;
@@ -15,6 +19,4 @@
     .projetos .container-projetos {
         padding: 0 30px;
     }
-
-    
 }
