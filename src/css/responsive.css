@@ -33,4 +33,8 @@
     .home .container-foto img {
         max-width: 320px;
     }
+
+    .projetos {
+        padding: 30px;
+    }
 }
