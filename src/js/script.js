@@ -4,10 +4,14 @@ const projetosInativos = document.querySelectorAll('.projeto:not(.ativo)'); // q
 
 botaoMostrarProjetos.addEventListener('click', () => {
     //Add a classe 'ativo' nos projetos escondidos
-    projetosInativos.forEach(projetoInativo => { // não precisa botar outro () pq só tem um argumento. A cada projeto inativo, add ativo a ele.
-        projetoInativo.classList.add('ativo');
-    })
+    mostrarMaisProjetos();
 
     //esconder o botão 'mostrar mais'
     botaoMostrarProjetos.classList.add('remover'); // add a classe remover no bootão pra sumir
 }); // add uma escuta ao click do botão e o que vai acontecer quando receber click
+
+function mostrarMaisProjetos() { //código refatorado
+    projetosInativos.forEach(projetoInativo => {
+        projetoInativo.classList.add('ativo');
+    });
+}
