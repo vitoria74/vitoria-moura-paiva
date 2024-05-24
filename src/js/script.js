@@ -7,8 +7,12 @@ botaoMostrarProjetos.addEventListener('click', () => {
     mostrarMaisProjetos();
 
     //esconder o botão 'mostrar mais'
-    botaoMostrarProjetos.classList.add('remover'); // add a classe remover no bootão pra sumir
+    esconderBotao(); // add a classe remover no bootão pra sumir
 }); // add uma escuta ao click do botão e o que vai acontecer quando receber click
+
+function esconderBotao() { //segundo código refatorado
+    botaoMostrarProjetos.classList.add('remover');
+}
 
 function mostrarMaisProjetos() { //código refatorado
     projetosInativos.forEach(projetoInativo => {
