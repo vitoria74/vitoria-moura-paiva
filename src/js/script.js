@@ -7,4 +7,7 @@ botaoMostrarProjetos.addEventListener('click', () => {
     projetosInativos.forEach(projetoInativo => { // não precisa botar outro () pq só tem um argumento. A cada projeto inativo, add ativo a ele.
         projetoInativo.classList.add('ativo');
     })
+
+    //esconder o botão 'mostrar mais'
+    botaoMostrarProjetos.classList.add('remover'); // add a classe remover no bootão pra sumir
 }); // add uma escuta ao click do botão e o que vai acontecer quando receber click

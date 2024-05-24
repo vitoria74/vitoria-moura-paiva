@@ -198,7 +198,7 @@ body {
     transition: 0.3s;
 }
 
-.projetos .btn-mostrar-projeto.remover {
+.projetos .btn-mostrar-projetos.remover {
     display: none;
 }
 
