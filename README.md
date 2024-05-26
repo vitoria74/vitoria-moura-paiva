@@ -1,7 +1,5 @@
 # Vitória Moura Paiva
 
-#
-
 ## Sobre Mim
 
 <p> 👋 Desenvolvi esse portfólio em 2024 para poder falar um pouco mais sobre mim e minha trajetória de forma mais aprofundada e objetiva.</p>
