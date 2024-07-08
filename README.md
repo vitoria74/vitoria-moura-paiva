@@ -2,7 +2,7 @@
 
 ## Sobre Mim
 
-<p> 👋 Desenvolvi esse portfólio em 2024 para poder falar um pouco mais sobre mim e minha trajetória de forma mais aprofundada e objetiva. <strong> Para poder visualizá-lo, basta acessar o link: </strong> https://vitoria74.github.io/vitoria-moura-paiva-portfolio/</p>
+<p> 👋 Desenvolvi esse portfólio em 2024 para poder falar um pouco mais sobre mim e minha trajetória de forma mais aprofundada e objetiva. <strong> Para poder visualizá-lo, basta acessar o link: </strong> https://vitoria74.github.io/vitoria-moura-paiva/</p>
 
 - <p> 💻 Sempre me interessei por tecnologia e por suas diferentes áreas, sendo assim, decidi ingressar na área de desenvolvimento. Hoje em dia, desenvolvo projetos com Java e JavaScript, além de estar aprendendo React Native e banco de dados com SQL.</p>
  
